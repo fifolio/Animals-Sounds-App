@@ -1,0 +1,55 @@
+
+body{ 
+    background-image: linear-gradient(140deg, #f6f6f6 0%, #ffd3f1 50%, #f5ffba 75%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container h6{
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+.container button{
+    margin: 10px 0 10px 0;    
+}
+
+.card {
+    margin: 20px 0 20px 0;
+    width: 400px;
+    max-width: 400px;
+    max-height: 200px;
+    cursor: pointer;
+    box-shadow: rgb(149, 149, 149) 1px 1px 20px 1px;
+    border-radius: 10px;
+}
+
+.card img{
+    border-radius: 10px;
+}
+
+.card:hover{
+    box-shadow: rgb(207, 0, 83) 1px 1px 20px 1px;
+    transition: 2s;
+}
+
+#display{
+    margin-top: 30px;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+#photo img{
+    max-width: 50vh;
+    min-width: 50vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: rgb(93, 102, 205) 1px 1px 20px 1px;
+}
+
+.copyright {
+    margin: 5px 0 0 0;
+    font-weight: bold;
+    font-size: small;
+}
