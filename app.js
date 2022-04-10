@@ -33,7 +33,7 @@ function play(str) {
         document.getElementById("display").innerText = "C (Cicada)";
         photo.innerHTML = `<img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Neotibicen_linnei.jpg">`
     }
-}
+};
 
 
 
